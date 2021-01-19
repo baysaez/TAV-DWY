@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>BSN-GAMES</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white ">    
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo2.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        BSN-Games
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="juegos.html">Juegos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formulario.html">Comprar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contacto </a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="container">
+     <div class="col-md-12 order-md-1">
+       <div align='center'>
+               <h2 class="mb-3">Contacto</h2>
+               <hr class="mb-4">
+       </div>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-2 mb-3">
+            <label for="lastName">Rut</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Ingresa tu RUT.
+            </div>
+            <div class="valid-feedback">
+              Correcto!
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <label for="firstName">Nombre</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Ingresa tu nombre.
+            </div>
+            <div class="valid-feedback">
+              Correcto!
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <label for="lastName">Apellido</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Ingresa tu apellido.
+            </div>
+            <div class="valid-feedback">
+              Correcto!
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <label for="email">Correo <span class="text-muted"></span></label>
+            <input type="email" class="form-control" id="email" placeholder="ejemplo@gmail.com" required>
+            <div class="invalid-feedback">
+              Ingresa tu Correo Electronico
+            </div>
+            <div class="valid-feedback">
+              Correcto!
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <label for="firstName">Numero de Telefono</label>
+            <input type="text" class="form-control" id="firstName" value="">
+            <small class="text-muted">Este campo no es obligatorio.</small>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <label for="state">Motivo</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">Seleccionar...</option>
+              <option>Consultas</option>
+              <option>Reclamos</option>
+              <option>Reembolso</option>
+            </select>
+            <div class="invalid-feedback">
+              Selecciona un motivo.
+            </div>
+          </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="comment">Mensaje:</label>
+            <textarea class="form-control" rows="4" id="comment" required></textarea>
+            <div class="invalid-feedback">
+              Escribe un mensaje.
+            </div>
+            <br>
+            <br>
+            <div align='center'>
+              <button class="btn btn-success btn-lg btn-lg" type="submit">Enviar Mensaje</button>
+            </div>
+            
+            <hr class="mb-4">
+             
+            <div align='center' >
+              <a href="http://instagram.com/"><img style="margin:5px" src="img/instagram.png" width="30" height="30" alt="Instagram"></a>
+              <a href="http://facebook.com/"><img style="margin:5px" src="img/facebook.png" width="30" height="30" alt="Facebook"></a>
+              <a href="http://youtube.com/" ><img style="margin:5px" src="img/youtube.png" width="30" height="30" alt="YouTube"></a>
+            </div>
+
+            <hr class="mb-4">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6374.389920150503!2d-73.1624597!3d-36.9812793!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669c74f1c7b396b%3A0x2cbb88c065580b74!2sLagunilla!5e0!3m2!1ses!2scl!4v1610759632716!5m2!1ses!2scl" width="900" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+          </div>
+        </div> 
+      </form>
+    </div>
+    <hr class="mb-4">
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; 2021 BSN-GAMES</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacidad</a></li>
+        <li class="list-inline-item"><a href="#">Terminos</a></li>
+        <li class="list-inline-item"><a href="#">Ayuda</a></li>
+      </ul>
+    </footer>
+
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2021 BSN-GAMES</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacidad</a></li>
+      <li class="list-inline-item"><a href="#">Terminos</a></li>
+      <li class="list-inline-item"><a href="contacto.html">Ayuda</a></li>
+    </ul>
+  </footer>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="form-validation.js"></script></body>
+</html>
